@@ -1,0 +1,54 @@
+//Colores
+
+$violeta: #A705C4;
+$amarillo: #FFA100;
+$azul: #0000fe;
+$gris-claro: #f8f8f8;
+$gris-oscuro: #4b4b4b;
+$blanco: white;
+$negro: black;
+
+//Tipografias
+
+$tipodestacada:'Work Sans', sans-serif;
+$tipocuerpo: 'Montserrat', sans-serif;
+
+//Extend
+%titulos{
+    font-family: $tipodestacada;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    line-height: 1rem;
+    color: $gris-oscuro;
+}
+
+%parrafos {
+    font-family: $tipocuerpo;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    color: $gris-oscuro;
+    text-align: justify;
+}
+
+%botonesVioletas {
+    background-color: $violeta;
+    border: 0.2rem solid $violeta;
+}
+
+%botonesAzules {
+    background-color: $azul;
+    border: 0.2rem solid $azul;
+}
+
+%textoBotones {
+    text-decoration: none;
+    color: $blanco;
+    font-family: $tipodestacada;
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+}
+
+

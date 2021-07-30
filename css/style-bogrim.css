@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .row {
+    margin-right: 0 !important;
+}
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  .menuPrincipal {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8rem;
+    background-color: #f8f8f8;
+  }
+  @media screen and (min-width: 300px) and (max-width: 1000px) {
+    .menuPrincipal li {
+      margin: 1rem;
+      text-align: center;
+    }
+  }
+  .menuPrincipal a {
+    margin-left: 3rem;
+    margin-right: 0.4rem;
+    text-decoration: none;
+    color: #4b4b4b;
+  }
+  .menuPrincipal a:hover {
+    color: #FFA100;
+  }
+  .menuPrincipal button {
+    background-color: #A705C4;
+  }
+
+  .fbMexico {
+    position: fixed;
+    top: 20%;
+    right: 0;
+    z-index: 100;
+    color: #A705C4;
+    font-size: 1.5rem;
+    text-align: end;
+  }
+  .fbMexico:hover {
+    color: #0000fe;
+  }
+  .fbMexico i {
+    background-color: white;
+    padding: 0.5rem;
+  }
+  
+  .igMexico {
+    position: fixed;
+    top: 28%;
+    right: 0;
+    z-index: 100;
+    color: #A705C4;
+    font-size: 1.5rem;
+    text-align: end;
+  }
+  .igMexico:hover {
+    color: #0000fe;
+  }
+  .igMexico i {
+    background-color: white;
+    padding: 0.5rem;
+  }
+  
+  footer {
+    background-color: #f8f8f8;
+  }
+  footer ul {
+    list-style: none;
+  }
+  footer ul a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #4b4b4b;
+  }
+  footer ul a:hover {
+    color: #FFA100;
+  }
+  footer p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8rem;
+    color: #4b4b4b;
+  }
+  @media screen and (min-width: 300px) and (max-width: 399px) {
+    footer p {
+      font-size: 0.5rem;
+    }
+  }
+  @media screen and (min-width: 400px) and (max-width: 500px) {
+    footer p {
+      font-size: 0.6rem;
+    }
+  }
+  
+  .logos {
+    padding: 5%;
+  }
+  
+  .redes {
+    padding-top: 10%;
+  }
+  .redes i {
+    color: #A705C4;
+  }
+  .redes i:hover {
+    color: #FFA100;
+  }
+.contactoFin {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    color: #4b4b4b;
+    text-align: center;
+  }
+.fondoTitulo {
+    background-image: url(/imagenes/bogrim/back-2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+  .fondoTitulo h1 {
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 9rem;
+    margin-left: 9rem;
+  }
+  @media screen and (min-width: 300px) and (max-width: 425px) {
+    .fondoTitulo h1 {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  }
+  @media screen and (min-width: 425px) and (max-width: 768px) {
+    .fondoTitulo h1 {
+      text-align: center;
+    }
+  }
+  @media screen and (min-width:300px) and (max-width:768px) {
+      .fondoTitulo h1 {
+          margin-left: 1rem;
+      }
+  }
+.linea {
+    margin-bottom: 14rem;
+    margin-left: 9rem !important;
+}
+
+@media screen and (min-width:300px) and (max-width:375px){
+    .linea {
+margin-left: 8rem !important;
+    }
+}
+@media screen and (min-width:375px) and (max-width:425px){
+    .linea {
+margin-left: 10rem !important;
+    }
+}
+@media screen and (min-width:425px) and (max-width:768px){
+    .linea {
+margin-left: 11rem !important;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    .linea {
+margin-left: 5rem !important;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1440px){
+    .linea {
+margin-left: 9rem !important;
+    }
+}
+
+.parrafo {
+    background-color: blueviolet;
+    padding: 3rem;
+    color: white;
+    font-family: "Montserrat", sans-serif; 
+}
+
+.subtitulo {
+    background-color: blue;
+    padding: 3rem;
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;  
+}
+
+@media screen and (min-width:300px) and (max-width:375px){
+    .subtitulo {
+        font-size: 22px;
+    }
+}
+
+.contenedor-imagen {
+    display: flex;
+    height: 26rem;
+    margin: auto;
+    justify-content: center;
+    margin-top: 86px !important;
+}
+
+@media screen and (min-width:1024px) and (max-width:1440px){
+    .contenedor-imagen {
+       margin-top:184px !important;
+    }
+}
+
+@media screen and (min-width:2560px){
+    .contenedor-imagen {
+       margin-top:144px !important;
+       justify-content: end;
+       padding-left: 100px !important;
+    }
+}
+
+.cuadro {
+    background-color: gainsboro;
+}
+
+.item {
+    display: inline;
+    border: blueviolet;
+    color: white;
+    background-color: blueviolet;
+    width: 43px;
+    padding: inherit;
+    text-align: center;
+    padding-top: 0.5rem;
+    height: 43px;
+    margin-right: 1rem;
+}
+
+.itemCuadro {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.subTitulos {
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.textos {
+    font-size: smaller;
+    font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (min-width:300px) and (max-width:375px){
+    .mailContacto {
+        font-size: 20px;
+    }
+}
+
+.contenedorGrande {
+    padding-right: 0 !important;
+}
+    

@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  .menuPrincipal {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8rem;
+    background-color: #f8f8f8;
+  }
+  @media screen and (min-width: 300px) and (max-width: 1000px) {
+    .menuPrincipal li {
+      margin: 1rem;
+      text-align: center;
+    }
+  }
+  .menuPrincipal a {
+    margin-left: 3rem;
+    margin-right: 0.4rem;
+    text-decoration: none;
+    color: #4b4b4b;
+  }
+  .menuPrincipal a:hover {
+    color: #FFA100;
+  }
+  .menuPrincipal button {
+    background-color: #A705C4;
+  }
+
+  .fbMexico {
+    position: fixed;
+    top: 20%;
+    right: 0;
+    z-index: 100;
+    color: #A705C4;
+    font-size: 1.5rem;
+    text-align: end;
+  }
+  .fbMexico:hover {
+    color: #0000fe;
+  }
+  .fbMexico i {
+    background-color: white;
+    padding: 0.5rem;
+  }
+  
+  .igMexico {
+    position: fixed;
+    top: 28%;
+    right: 0;
+    z-index: 100;
+    color: #A705C4;
+    font-size: 1.5rem;
+    text-align: end;
+  }
+  .igMexico:hover {
+    color: #0000fe;
+  }
+  .igMexico i {
+    background-color: white;
+    padding: 0.5rem;
+  }
+  
+  footer {
+    background-color: #f8f8f8;
+  }
+  footer ul {
+    list-style: none;
+  }
+  footer ul a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #4b4b4b;
+  }
+  footer ul a:hover {
+    color: #FFA100;
+  }
+  footer p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8rem;
+    color: #4b4b4b;
+  }
+  @media screen and (min-width: 300px) and (max-width: 399px) {
+    footer p {
+      font-size: 0.5rem;
+    }
+  }
+  @media screen and (min-width: 400px) and (max-width: 500px) {
+    footer p {
+      font-size: 0.6rem;
+    }
+  }
+  
+  .logos {
+    padding: 5%;
+  }
+  
+  .redes {
+    padding-top: 10%;
+  }
+  .redes i {
+    color: #A705C4;
+  }
+  .redes i:hover {
+    color: #FFA100;
+  }
+  
+  .contactoFin {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    color: #4b4b4b;
+    text-align: center;
+  }
+
+  .cuerpoContacto {
+    background-image: url(../imagenes/contacto/banderaIsrael.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+  .tituloContacto {
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  .mailArg {
+    color: white;
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 20px;
+  }
+  @media screen and (min-width: 300px) and (max-width: 680px) {
+    .mailArg {
+      padding-left: 25% !important;
+      padding-right: 25% !important;
+      padding-top: 5% !important;
+    }
+  }
+.linkFace{
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif !important;
+  font-size:  15px;
+}
+.linkFace:hover {
+  color: orange;
+}
+.linkInsta{
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif !important;
+  font-size:  15px;
+}
+.linkInsta:hover {
+  color: orange;
+}
+  @media screen and (min-width: 300px) and (max-width: 680px) {
+    .facebookArg {
+      padding-left: 25% !important;
+      padding-right: 25% !important;
+      padding-top: 10% !important;
+    }
+  }
+  @media screen and (min-width: 300px) and (max-width: 680px) {
+    .instagramArg {
+      padding-left: 25% !important;
+      padding-right: 25% !important;
+      padding-top: 10% !important;
+    }
+  }
+  @media screen and (min-width: 1440px) and (max-width: 2560px) {
+    .contenedorContacto {
+      margin-top: 20% !important;
+      margin-bottom: 10% !important;
+    }
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 426px) {
+    .contenedorContacto {
+      margin-top: 35% !important;
+      margin-bottom: 10% !important;
+    }
+  }
+
+

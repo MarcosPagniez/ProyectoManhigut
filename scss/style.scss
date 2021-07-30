@@ -1,0 +1,120 @@
+@import "base/variables.scss";
+@import "componentes/inicio.scss";
+@import "componentes/mexico.scss";
+@import "componentes/biblioteca.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.menuPrincipal {
+    font-family: $tipocuerpo;
+    font-size: 0.8rem;
+    background-color: $gris-claro;
+
+
+    li {
+        @media screen and (min-width:300px) and (max-width:1000px) {
+            margin: 1rem;
+            text-align: center;
+        }
+    }
+
+    a {
+        margin-left: 3rem;
+        margin-right: 0.4rem;
+        text-decoration: none;
+        color:$gris-oscuro;
+
+        &:hover{
+            color: $amarillo;
+        }
+    }
+
+    button {
+        background-color: $violeta;
+    }
+}
+
+.lineaAzul {
+    background: $azul;
+    height: 80px;
+}
+
+.contactoFinPag {
+    padding: 10% 0;
+    
+    h2 {
+        @extend %titulos;
+    }
+
+    p {
+        font-family: $tipocuerpo;
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+        line-height: 2rem;
+        color: $gris-oscuro;
+        text-align: center;
+        margin-top: 1rem;
+
+        @media screen and (min-width:300px) and (max-width:400px) {
+            font-size: 1rem;
+        }
+    }
+}
+
+footer {
+    background-color: $gris-claro;
+    
+    ul {
+        list-style: none;
+
+        a {
+            font-family: $tipocuerpo;
+            font-size: 0.8rem;
+            text-decoration: none;
+            color: $gris-oscuro;
+
+            &:hover{
+                color: $amarillo;
+            }
+        }
+        
+    }
+
+    p {
+        font-family: $tipocuerpo;
+        font-size: 0.8rem;
+        color: $gris-oscuro;
+
+        @media screen and (min-width:300px) and (max-width:399px) {
+            font-size: 0.5rem;
+        }
+
+        @media screen and (min-width:400px) and (max-width:500px) {
+            font-size: 0.6rem;
+        }
+    }
+}
+
+.logos {
+    padding: 5%;
+}
+
+.redes {
+    padding-top: 10%;
+
+    i {
+        color: $violeta;
+
+        &:hover {
+            color: $amarillo;
+        }
+    }
+}

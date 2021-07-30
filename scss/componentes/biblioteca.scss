@@ -1,0 +1,52 @@
+.tituloBiblio {
+    background-color: $violeta;
+    padding: 10% 0;
+    
+    h1 {
+        color: $blanco;
+        font-family: $tipodestacada;
+        font-size: 3rem;
+        font-weight: 700;
+        margin-left: 10%;
+    }
+
+    img {
+        margin-left: 10%;
+    }
+}
+
+.archivos {
+    margin-bottom: 3rem;
+
+    h2 {
+        @extend %titulos;
+        padding-top: 10%;
+    }
+
+    img {
+        margin-bottom: 3rem;
+    }
+
+    a {
+        @extend %parrafos;
+
+        &:hover {
+            color: $azul;
+            text-decoration: underline;
+        }
+
+        i {
+            color: $gris-oscuro;
+            font-size: 2rem;
+            margin-right: 1rem;
+
+            &:hover {
+                color: $azul;
+            }
+        }
+    }
+}
+
+.filaArchivos {
+    margin-bottom: 2rem;
+}

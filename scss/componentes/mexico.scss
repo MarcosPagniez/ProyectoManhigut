@@ -1,0 +1,139 @@
+.bodyMexico {
+    background: linear-gradient(to bottom, $gris-claro 50%, $blanco 50%);
+}
+
+.mexico {
+    background-color: $violeta;
+    padding-top: 10%;
+
+    @media screen and (min-width:300px) and (max-width:600px) {
+        padding-top: 30%;
+    }
+
+    @media screen and (min-width:601px) and (max-width:900px) {
+        padding-top: 20%;
+    }
+
+    h1 {
+        color: $blanco;
+        font-family: $tipodestacada;
+        font-size: 3rem;
+        font-weight: 700;
+        margin-left: 10%;
+
+        @media screen and (min-width:990px) and (max-width:1160px) {
+           font-size: 2rem;
+        }
+    }
+
+    img {
+        margin-left: 10%;
+    }
+
+    p {
+        margin-left: 10%;
+        text-align: justify;
+        color: $blanco;
+        font-family: $tipocuerpo;
+        font-size: 0.8rem;
+        width: 80%;
+        margin-top: 1rem;
+
+        @media screen and (min-width:990px) and (max-width:1160px) {
+            font-size: 0.7rem;
+            width: 90%;
+        }
+    }
+}
+
+.fbMexico {
+    position: fixed;
+    top: 20%;
+    right: 0;
+    z-index: 100;
+    color: $violeta;
+    font-size: 1.5rem;
+    text-align: end;
+
+    &:hover {
+        color: $azul;
+    }
+
+    i {
+        background-color: $blanco;
+        padding: 0.5rem;
+    }
+}
+
+.igMexico {
+    position: fixed;
+    top: 28%;
+    right: 0;
+    z-index: 100;
+    color: $violeta;
+    font-size: 1.5rem;
+    text-align: end;
+
+    &:hover {
+        color: $azul;
+    }
+
+    i {
+        background-color: $blanco;
+        padding: 0.5rem;
+    }
+}
+
+.programasMexico {
+    padding: 10% 0;
+
+    h2 {
+        @extend %titulos;
+        margin-bottom: 1rem;
+    }
+
+    h3 {
+        color: $violeta;
+        font-size: 1.5rem;
+        font-family: $tipodestacada;
+        font-weight: 600;
+        margin: 2rem 0;
+    }
+    
+    h4 {
+        font-size: 1.2rem;
+        font-family: $tipodestacada;
+        font-weight: 600;
+        line-height: 2rem;
+        color: $gris-oscuro;
+        width: 80%;
+        margin-top: 1rem;
+    }
+
+    h5 {
+        color: $violeta;
+        font-size: 0.8rem;
+        font-family: $tipocuerpo;
+        margin-top: 1rem;
+
+        i {
+            color: $amarillo;
+            margin-left: 0.5rem;
+        }
+
+    }
+
+    p {
+        @extend %parrafos;
+        width: 80%;
+    }
+
+    ul {
+        @extend %parrafos;
+        width: 80%;
+    }
+}
+
+.filaMexico{
+    padding: 5% 0;
+}

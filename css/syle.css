@@ -1,0 +1,327 @@
+.contactoFinPag h2, .carouselProgramas h5, .programas h2, .nosotros h2 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  line-height: 1rem;
+  color: #4b4b4b;
+}
+
+.carouselProgramas p, .programas p, .nosotros p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+  color: #4b4b4b;
+  text-align: justify;
+}
+
+.carouselProgramas a, .textoProgramas button, .nosotros button {
+  background-color: #A705C4;
+  border: 0.2rem solid #A705C4;
+}
+
+.seParte button {
+  background-color: #0000fe;
+  border: 0.2rem solid #0000fe;
+}
+
+.seParte button a, .carouselProgramas a, .textoProgramas button a, .nosotros button a {
+  text-decoration: none;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+}
+
+.fondoTitulo {
+  background-image: url(/imagenes/fondohome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+@media screen and (min-width: 300px) and (max-width: 680px) {
+  .fondoTitulo {
+    background-image: url(/imagenes/fondomobile2.jpg);
+  }
+}
+.fondoTitulo h1 {
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 18rem;
+}
+@media screen and (min-width: 300px) and (max-width: 680px) {
+  .fondoTitulo h1 {
+    font-size: 3rem;
+  }
+}
+.fondoTitulo p {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.nosotros {
+  background-color: #f8f8f8;
+}
+.nosotros h2 {
+  margin-left: 10%;
+}
+.nosotros p {
+  margin-top: 1rem;
+  width: 80%;
+  margin-left: 10%;
+}
+.nosotros button {
+  padding: 0.4rem;
+  margin-left: 10%;
+  transition: all 1s ease-in-out;
+}
+.nosotros button:hover {
+  transform: scale(1.5);
+}
+.nosotros button a:hover {
+  color: #FFA100;
+}
+
+.manhigut {
+  padding: 10% 0;
+}
+.manhigut img {
+  margin-left: 10%;
+}
+
+.imgManhigut {
+  background: linear-gradient(to left, #A705C4 90%, #0000fe 10%);
+}
+.imgManhigut img {
+  padding: 8% 0;
+}
+
+.programas h2 {
+  margin-left: 10%;
+}
+.programas p {
+  margin-top: 1rem;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.textoProgramas {
+  padding: 10% 0;
+}
+.textoProgramas img {
+  margin-left: 10%;
+}
+.textoProgramas button {
+  padding: 0.5rem;
+  margin-left: 10%;
+  margin-top: 10%;
+  transition: all 1s ease-in-out;
+}
+.textoProgramas button:hover {
+  transform: scale(1.2);
+}
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .textoProgramas button a {
+    font-size: 0.5rem;
+  }
+}
+.textoProgramas button a:hover {
+  color: #FFA100;
+}
+
+.carouselProgramas {
+  background-color: #f8f8f8;
+  padding: 10% 0;
+  width: 80%;
+  height: 50%;
+}
+@media screen and (min-width: 300px) and (max-width: 1000px) {
+  .carouselProgramas {
+    width: 100%;
+    height: 100%;
+  }
+}
+.carouselProgramas h5 {
+  text-align: center;
+}
+.carouselProgramas p {
+  text-align: center;
+}
+.carouselProgramas a {
+  padding: 0.5rem;
+}
+.carouselProgramas a:hover {
+  color: #FFA100;
+}
+
+.carouselTestimonios {
+  padding: 5% 0;
+  background-color: #0000fe;
+}
+@media screen and (min-width: 300px) and (max-width: 1000px) {
+  .carouselTestimonios {
+    width: 100%;
+    height: 100%;
+  }
+}
+.carouselTestimonios img {
+  margin-bottom: 3rem;
+}
+.carouselTestimonios p {
+  color: white;
+}
+
+.seParte {
+  padding: 10% 0;
+  background-color: #A705C4;
+}
+.seParte h3 {
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 1rem;
+  line-height: 3rem;
+  width: 80%;
+  margin-left: 10%;
+}
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .seParte h3 {
+    font-size: 2rem;
+  }
+}
+.seParte button {
+  padding: 0.5rem;
+  margin-left: 10%;
+  margin-top: 10%;
+  transition: all 1s ease-in-out;
+}
+.seParte button:hover {
+  transform: scale(1.5);
+}
+.seParte button a:hover {
+  color: #FFA100;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.menuPrincipal {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  background-color: white;
+}
+@media screen and (min-width: 300px) and (max-width: 1000px) {
+  .menuPrincipal li {
+    margin: 1rem;
+    text-align: center;
+  }
+}
+.menuPrincipal a {
+  margin-left: 3rem;
+  margin-right: 0.4rem;
+  text-decoration: none;
+  color: #4b4b4b;
+}
+.menuPrincipal a:hover {
+  color: #FFA100;
+}
+.menuPrincipal button {
+  background-color: #A705C4;
+}
+
+.scrollArriba {
+  color: white;
+  background-color: black;
+  padding: 0.5rem;
+  font-size: 1rem;
+  position: fixed;
+  z-index: 2;
+  bottom: 0;
+  right: 0;
+}
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .scrollArriba {
+    font-size: 0.5rem;
+  }
+}
+
+.contactoFinPag {
+  padding: 20% 0;
+}
+.contactoFinPag p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+  color: #4b4b4b;
+  text-align: center;
+  margin-top: 1rem;
+}
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .contactoFinPag p {
+    font-size: 1rem;
+  }
+}
+
+footer {
+  background-color: #f8f8f8;
+}
+footer ul {
+  list-style: none;
+}
+footer ul a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: #4b4b4b;
+}
+footer ul a:hover {
+  color: #FFA100;
+}
+footer p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  color: #4b4b4b;
+}
+@media screen and (min-width: 300px) and (max-width: 399px) {
+  footer p {
+    font-size: 0.5rem;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 500px) {
+  footer p {
+    font-size: 0.6rem;
+  }
+}
+
+.logos {
+  padding: 5%;
+}
+
+.redes {
+  padding-top: 10%;
+}
+.redes i {
+  color: #A705C4;
+}
+.redes i:hover {
+  color: #FFA100;
+}
+
+/*# sourceMappingURL=syle.css.map */

@@ -1,0 +1,24 @@
+{
+  "name": "sitiomanhigut",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node": "^16.4.0",
+    "nodemon": "^2.0.9"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SolPichirili/sitio-manhigut.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SolPichirili/sitio-manhigut/issues"
+  },
+  "homepage": "https://github.com/SolPichirili/sitio-manhigut#readme",
+  "description": ""
+}
